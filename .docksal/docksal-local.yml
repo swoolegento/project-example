@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  cli:
+    build:
+      context: ../
+      dockerfile: dev.Dockerfile
+    volumes:
+      - /var/www/html/vendor/magento
+      - /var/www/html/generated/code
+      - /var/www/html/pub/static
+      - /var/www/html/pub/media/catalog/product/cache
