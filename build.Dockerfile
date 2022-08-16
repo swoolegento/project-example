@@ -13,3 +13,5 @@ RUN composer config -a -g http-basic.repo.magento.com \
  ${MAGENTO_REPO_USERNAME} ${MAGENTO_REPO_PASSWORD}
 
 RUN composer install
+
+USER root
