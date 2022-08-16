@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_f55cc213bd6e4269b7ab543d987d2f47 }}/alexryall/swoolegento-example:${{ github.sha }}
+        tags: alexryall/swoolegento-example:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'swoolegento'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1bf0a6bff4d04610a2ccac09d5e7f433 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_f55cc213bd6e4269b7ab543d987d2f47 }}/alexryall/swoolegento-example:${{ github.sha }}'
+        images: 'alexryall/swoolegento-example:${{ github.sha }}'
