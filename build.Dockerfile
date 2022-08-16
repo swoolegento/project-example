@@ -18,4 +18,6 @@ RUN mv app/etc/env.php app/etc/_env.php
 RUN php -d memory_limit=1G bin/magento setup:static-content:deploy en_GB --theme Magento/luma -f
 RUN mv app/etc/_env.php app/etc/env.php
 
+RUN mkdir var/log
+
 USER root
