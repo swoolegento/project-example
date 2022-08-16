@@ -32,6 +32,7 @@ jobs:
         push: true
         tags: alexryall/swoolegento-example:${{ github.sha }}
         file: ./build.Dockerfile
+        build-args: MAGENTO_REPO_USERNAME=${{secrets.MAGENTO_REPO_USERNAME}},MAGENTO_REPO_PASSWORD=${{secrets.MAGENTO_REPO_PASSWORD}}
 
   deploy:
     runs-on: ubuntu-latest
