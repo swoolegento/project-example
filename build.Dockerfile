@@ -16,6 +16,7 @@ RUN composer install
 
 RUN mv app/etc/env.php app/etc/_env.php
 RUN php bin/magento setup:static-content:deploy en_GB --theme Magento/luma -f
+RUN php bin/magento setup:static-content:deploy en_GB --area adminhtml -f
 RUN php bin/magento setup:di:compile
 RUN mv app/etc/_env.php app/etc/env.php
 
