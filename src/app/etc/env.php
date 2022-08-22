@@ -111,5 +111,18 @@ return [
     ],
     'install' => [
         'date' => 'Tue, 16 Aug 2022 18:48:51 +0000'
+    ],
+    'system' => [
+        'default' => [
+            'catalog' => [
+                'search' => [
+                    'elasticsearch7_server_hostname' => getenv('ELASTICSEARCH_HOST'),
+                    'elasticsearch7_server_port' => getenv('ELASTICSEARCH_PORT'),
+                    'elasticsearch7_enable_auth' => getenv('ELASTICSEARCH_ENABLE_AUTH'),
+                    'elasticsearch7_username' => getenv('ELASTICSEARCH_USERNAME'),
+                    'elasticsearch7_password' => getenv('ELASTICSEARCH_PASSWORD')
+                ]
+            ]
+        ]
     ]
 ];
