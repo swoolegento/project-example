@@ -10,3 +10,5 @@ services:
       - /var/www/html/generated/code
       - /var/www/html/pub/static
       - /var/www/html/pub/media/catalog/product/cache
+    environment:
+      MAGE_MODE: ${MAGE_MODE}
