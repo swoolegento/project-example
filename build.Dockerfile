@@ -19,6 +19,4 @@ RUN php bin/magento setup:static-content:deploy en_GB --theme Magento/luma -f
 RUN php bin/magento setup:di:compile
 RUN mv app/etc/_env.php app/etc/env.php
 
-RUN mkdir var/log
-
 USER root
