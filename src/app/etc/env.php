@@ -36,7 +36,7 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'developer',
+    'MAGE_MODE' => getenv('MAGE_MODE'),
     'session' => [
         'save' => 'redis',
         'redis' => [
