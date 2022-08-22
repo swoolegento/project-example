@@ -1,4 +1,4 @@
-FROM alexryall/swoolegento
+FROM alexryall/swoolegento:redis
 
 WORKDIR /var/www/html
 
