@@ -12,8 +12,6 @@ USER docker
 RUN composer config -a -g http-basic.repo.magento.com \
  ${MAGENTO_REPO_USERNAME} ${MAGENTO_REPO_PASSWORD}
 
-
-
 RUN mv app/etc/env.php app/etc/_env.php
 
 RUN composer install --no-dev
