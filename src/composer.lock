@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6387ecb565b7084de417bbe1d687b7b3",
+    "content-hash": "6fd225a8b19f682a755fce784e4db470",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -19258,16 +19258,16 @@
         },
         {
             "name": "swoolegento/magento2-module",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoolegento/magento2-module.git",
-                "reference": "5cf0f62af41cb3ab02bdfd2b7796e5ea7f2e3f25"
+                "reference": "c258278019af4397e9a3392a8229edd0291939b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoolegento/magento2-module/zipball/5cf0f62af41cb3ab02bdfd2b7796e5ea7f2e3f25",
-                "reference": "5cf0f62af41cb3ab02bdfd2b7796e5ea7f2e3f25",
+                "url": "https://api.github.com/repos/swoolegento/magento2-module/zipball/c258278019af4397e9a3392a8229edd0291939b4",
+                "reference": "c258278019af4397e9a3392a8229edd0291939b4",
                 "shasum": ""
             },
             "require": {
@@ -19290,9 +19290,9 @@
             "description": "A module for running a Swoole PHP server in Magento 2",
             "support": {
                 "issues": "https://github.com/swoolegento/magento2-module/issues",
-                "source": "https://github.com/swoolegento/magento2-module/tree/0.0.2"
+                "source": "https://github.com/swoolegento/magento2-module/tree/0.0.3"
             },
-            "time": "2022-08-16T16:31:39+00:00"
+            "time": "2022-08-25T18:42:59+00:00"
         },
         {
             "name": "symfony/config",
@@ -26473,5 +26473,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
