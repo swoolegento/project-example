@@ -68,7 +68,7 @@ return [
         'Magento_Contact' => 1,
         'Magento_Cookie' => 1,
         'Magento_Cron' => 1,
-        'Magento_Csp' => 1,
+        'Magento_Csp' => 0,
         'Magento_Widget' => 1,
         'Magento_Robots' => 1,
         'Magento_Analytics' => 1,
@@ -348,7 +348,7 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Swoolegento_Cli' => 1,
-        'Swoolegento_Csp' => 1,
+        'Swoolegento_Csp' => 0,
         'Temando_ShippingRemover' => 1
     ],
     'scopes' => [
