@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47cd5860db3a1092e75b69712a087897",
+    "content-hash": "845ca5ffbd3be2a57135bfd00f928cca",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -19258,16 +19258,16 @@
         },
         {
             "name": "swoolegento/magento2-module",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoolegento/magento2-module.git",
-                "reference": "5f64e5ef4e9a5bcc9a31eae2a835465d61a8de9e"
+                "reference": "f1bd1660ce351bbc72dd1a99ec8fc2909e2283ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoolegento/magento2-module/zipball/5f64e5ef4e9a5bcc9a31eae2a835465d61a8de9e",
-                "reference": "5f64e5ef4e9a5bcc9a31eae2a835465d61a8de9e",
+                "url": "https://api.github.com/repos/swoolegento/magento2-module/zipball/f1bd1660ce351bbc72dd1a99ec8fc2909e2283ca",
+                "reference": "f1bd1660ce351bbc72dd1a99ec8fc2909e2283ca",
                 "shasum": ""
             },
             "require": {
@@ -19290,9 +19290,9 @@
             "description": "A module for running a Swoole PHP server in Magento 2",
             "support": {
                 "issues": "https://github.com/swoolegento/magento2-module/issues",
-                "source": "https://github.com/swoolegento/magento2-module/tree/0.0.4"
+                "source": "https://github.com/swoolegento/magento2-module/tree/0.0.5"
             },
-            "time": "2022-08-26T21:16:29+00:00"
+            "time": "2022-08-27T00:08:37+00:00"
         },
         {
             "name": "symfony/config",
