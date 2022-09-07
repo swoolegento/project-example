@@ -15,8 +15,8 @@ RUN composer config -a -g http-basic.repo.magento.com \
 RUN mv app/etc/env.php app/etc/_env.php
 
 RUN composer install --no-dev
-RUN php bin/magento setup:di:compile
-RUN composer dump-autoload -o --apcu
+#RUN php bin/magento setup:di:compile
+#RUN composer dump-autoload -o --apcu
 RUN php bin/magento setup:static-content:deploy en_GB --theme Magento/luma -f
 RUN php bin/magento setup:static-content:deploy en_GB --area adminhtml -f
 
