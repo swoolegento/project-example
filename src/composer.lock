@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e73838d024940733b67c9d6f426f1672",
+    "content-hash": "00ff8fe6860147de59af3cb20245be73",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -19258,21 +19258,22 @@
         },
         {
             "name": "swoolegento/magento2-module",
-            "version": "0.0.8",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoolegento/magento2-module.git",
-                "reference": "20227f808ed651a4a1e4051355d56f69876a617a"
+                "reference": "00aebabd08fc0884f18312d17a37718bfb6720e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoolegento/magento2-module/zipball/20227f808ed651a4a1e4051355d56f69876a617a",
-                "reference": "20227f808ed651a4a1e4051355d56f69876a617a",
+                "url": "https://api.github.com/repos/swoolegento/magento2-module/zipball/00aebabd08fc0884f18312d17a37718bfb6720e9",
+                "reference": "00aebabd08fc0884f18312d17a37718bfb6720e9",
                 "shasum": ""
             },
             "require": {
                 "php": "~7.4.0||~8.1.0"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "files": [
@@ -19290,9 +19291,9 @@
             "description": "A module for running a Swoole PHP server in Magento 2",
             "support": {
                 "issues": "https://github.com/swoolegento/magento2-module/issues",
-                "source": "https://github.com/swoolegento/magento2-module/tree/0.0.8"
+                "source": "https://github.com/swoolegento/magento2-module/tree/main"
             },
-            "time": "2022-09-13T19:39:28+00:00"
+            "time": "2022-09-14T20:25:51+00:00"
         },
         {
             "name": "symfony/config",
@@ -26468,7 +26469,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "swoolegento/magento2-module": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
